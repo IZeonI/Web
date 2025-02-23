@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(Images/BlueRose.jpg);
+}
+
+.contenedor-top {
+    width:100%; 
+    background-color: rgb(0, 0, 0);
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-top li{
+    font-size: 18px;
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.contenedor-info{
+    display: flex;
+    gap: 20px;
+    color:white;
+    align-items: center;
+}
+
+.contenedor-info a{
+    background-image: url(Images/ado2.jpeg);
+    border-radius: 20px;
+    padding: 45px;
+    font-style:italic;
+    font-size: 20px;
+    max-width: 400px;
+    text-align: justify;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.contenedor-info a img{
+    border-radius: 20px;
+}
+
+.contenedor-info a:hover{
+    color: rgb(215, 212, 248);
+}

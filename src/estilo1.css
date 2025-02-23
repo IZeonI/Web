@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image:url(Images/BlueRose.jpg);
+    background-image:url(images/BlueRose.jpg);
 }
 
 .contenedor-top {
@@ -33,7 +33,7 @@ body {
 }
 
 .contenedor-info a{
-    background-image: url(Images/ado2.jpeg);
+    background-image: url(images/ado2.jpeg);
     border-radius: 20px;
     padding: 45px;
     font-style:italic;
